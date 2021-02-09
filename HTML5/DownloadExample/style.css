@@ -1,0 +1,23 @@
+/* THIS IS A CSS COMMENT */
+
+
+/* CSS RULE */
+body {
+    background-color:rgba(0, 255, 149, 0.267);
+}
+
+/* CSS RULE  */
+a {
+    font-size: large;
+    color:black;
+    font-weight: bold;
+    font-family:cursive;
+}
+
+/* CSS = full Cascading Style Sheets */
+
+a {
+    color:deeppink ;  
+    font-style:italic ;
+}
+
