@@ -1,0 +1,12 @@
+font-style: normal;
+font-style: italic;
+font-style: oblique;
+font-style: oblique 30deg;
+font-style: oblique 30deg 50deg;
+
+
+font-weight: normal;
+font-weight: bold;
+
+font-weight: lighter;    /* with respect to parent in the html*/
+font-weight: bolder;     /* with respect to parent in the html*/

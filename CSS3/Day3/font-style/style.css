@@ -1,0 +1,26 @@
+.p1 {
+
+    font-style: normal;
+}
+
+.p2 {
+
+    /* font-style: italic 30deg; // INVALID Italic doesnt support second value */
+
+    font-style: italic;
+}
+
+.p3 {
+
+    font-style: oblique; /* Looks same as italic but supports second value and also third value*/
+}
+
+.p4 {
+
+    font-style: oblique 30deg; /* seocnd value means angle of slant of the text */
+}
+
+.p5 {
+
+    font-style: oblique 30deg 50deg; /*  means angle of slant of the text, is somewhere between the second value and third value */
+}

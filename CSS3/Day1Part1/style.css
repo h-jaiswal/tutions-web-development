@@ -1,0 +1,41 @@
+h1 {
+    color: chocolate;
+}
+
+p, li {
+    color : green;
+}
+
+/*  selector  using  css  class  */
+
+.rishav {
+    list-style-type : square;
+    color: blue;
+    font-family: fantasy;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/* Unvisted - not clicked even once */
+a {
+    color: orange;
+}
+
+/* visited  */
+a:visited {
+    color:hotpink;
+}
+/* when mouse pointer is taken over the link  */
+a:hover {
+    color:black;
+    
+}
+/* when link is clicked the this rule will get applied only for the time duration it is clicked  */
+a:active {
+
+    color:lawngreen;
+    font-size:1.2em ;
+}

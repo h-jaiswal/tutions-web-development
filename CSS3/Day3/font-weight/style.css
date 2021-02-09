@@ -1,0 +1,71 @@
+/*
+Basic - 
+
+Keyword values          MOST IMPORTANT ARE normal and bold
+font-weight: normal;
+font-weight: bold;
+
+Numeric keyword values - FROM 100 to 900
+
+value from 100 to 500 looks same as normal (Google Chrome for PC) so you may use 400 or normal
+
+and values from 600 to 900 looks same as bold (Google Chrome for PC) so you may use 800 or bold
+
+font-weight: 100;
+font-weight: 200;
+font-weight: 300;
+font-weight: 400;// normal
+font-weight: 500;
+font-weight: 600;
+font-weight: 700;// bold
+font-weight: 800;
+font-weight: 900;
+
+Advanced - 
+Keyword values relative to the parent
+font-weight: lighter;
+font-weight: bolder;
+
+Highly Advanced - 
+Global values
+font-weight: inherit;
+font-weight: initial;
+font-weight: unset;
+
+*/
+
+.p1 {
+    font-weight: normal; /* normal is equal to setting font-weight: value to 400 */
+}
+
+.p2 {
+    font-weight: bold;  /* bold is equal to setting font-weight: value to 800 */
+}
+
+.p3 {
+    font-weight: 100;
+}   
+
+.p4 {
+    font-weight: 200;
+}
+
+.p5 {
+    font-weight: 300;
+}
+
+.p6 {
+    font-weight: 500; 
+}
+
+.p7 {
+    font-weight: 600;
+}
+
+.p8 {
+    font-weight: 700;
+}
+
+.p9 {
+    font-weight: 900;
+}

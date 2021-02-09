@@ -1,0 +1,17 @@
+.h2_parent
+{
+    font-weight: bold;
+}
+
+.h2_child
+{
+    font-weight: lighter;    /* sets fontweight to a value LESS than fontweight value of parent in the html*/
+
+}
+
+/* .h2_child
+{ 
+    font-weight: bolder;    sets fontweight to a value MORE than fontweight value of parent in the html
+
+} 
+*/
