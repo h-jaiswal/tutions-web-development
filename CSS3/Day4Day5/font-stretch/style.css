@@ -1,7 +1,7 @@
 /*
 
 BASIC: 
-Keyword values
+Keyword values 9 VALUES
 font-stretch: ultra-condensed;
 font-stretch: extra-condensed;
 font-stretch: condensed;
@@ -31,3 +31,63 @@ font-stretch: initial;
 font-stretch: unset;
 
 */
+
+
+.p1
+{
+    font-stretch: ultra-condensed;
+}
+.p2
+{
+    font-stretch: extra-condensed;
+}
+.p3
+{
+    font-stretch: condensed;
+}
+
+.p4
+{
+    font-stretch: semi-condensed;
+}
+
+.p5
+{
+    font-stretch: normal;
+}
+
+.p6
+{
+    font-stretch: semi-expanded;
+}
+
+.p7
+{
+    font-stretch: expanded;
+}
+
+.p8
+{
+    font-stretch: extra-expanded;
+}
+
+.p9
+{
+    font-stretch: ultra-expanded;
+}
+
+
+.pp1
+{
+    font-stretch: 50%;
+}
+
+.pp2
+{
+    font-stretch: 100%;
+}
+
+.pp3
+{
+    font-stretch: 200%;
+}
