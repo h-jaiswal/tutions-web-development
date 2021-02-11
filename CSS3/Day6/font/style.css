@@ -1,0 +1,45 @@
+/* If font is specified as a shorthand for several font-related properties, then:
+
+it MUST include values for:
+
+<font-size>
+<font-family>
+
+it may optionally include values for:
+
+<font-style>
+<font-weight>
+<line-height>
+
+<font-stretch>
+<font-variant>
+
+MOST IMP
+1. font-style, font-variant and font-weight must be written before font-size
+
+2. line-height must immediately follow font-size, also ALWAYS PUT A "/" SYMBOL BEFORE LINE HEIGHT VALUE, for example : "16px/3"
+
+3. font-family must be the last value specified. 
+
+LESS IMP
+1. font-variant may only specify the values defined in CSS 2.1, that is normal and small-caps
+
+2. font-stretch may only be a single keyword value.
+
+*/
+
+
+p
+{
+    /* 
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em; 
+    line-height: 1.5em;
+    */
+
+
+    /* font: 1.2em Verdana, Geneva, Tahoma, sans-serif; */
+    font: italic bold 1.2em/1.5 Verdana, Geneva, Tahoma, sans-serif;
+}
