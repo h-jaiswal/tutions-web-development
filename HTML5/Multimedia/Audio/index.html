@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Sample</title>
+</head>
+<body>
+    <audio controls>
+        <source src="./audiofile.mp3" type="audio/mp3">
+
+        <!-- Below p element & its content when audio element is not supported -->
+        <p> <a href="./audiofile.mp3"> Download audio </a> </p>
+    </audio>
+
+
+    <audio controls 
+        autoplay 
+        muted preload="auto" >
+
+        <source src="./audiofile.mp3" type="audio/mp3">
+            
+        <!-- Below p element & its content when audio element is not supported -->
+        <p> <a href="./audiofile.mp3"> Download audio </a> </p>
+    </audio>
+
+    <audio controls 
+        loop
+        muted preload="auto" >
+
+        <source src="./audiofile.mp3" type="audio/mp3">
+            
+        <!-- Below p element & its content when audio element is not supported -->
+        <p> <a href="./audiofile.mp3"> Download audio </a> </p>
+    </audio>
+
+
+    
+
+</body>
+</html>

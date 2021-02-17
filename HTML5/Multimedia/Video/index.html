@@ -8,9 +8,41 @@
 </head>
 <body>
     
-    <h1>Sample Video with play/pause/volume/fullscreen feature built-in </h1>
+    <h1>Sample Video with play/pause/volume/fullscreen feature built-in
+        NOTE: autoplay feature has been disabled by default in chrome, firefox video/audio </h1>
 
     <video src="./videofile.webm" controls>
+        <p>The video failed to load. Please download <a href="./videofile.webm">here</a>.</p>
+    </video>
+
+    
+    <video src="./videofile.webm" controls
+    autoplay >
+        <p>The video failed to load. Please download <a href="./videofile.webm">here</a>.</p>
+    </video>
+
+    
+    <video src="./videofile.webm" controls
+    loop>
+        <p>The video failed to load. Please download <a href="./videofile.webm">here</a>.</p>
+    </video>
+
+    
+    <video src="./videofile.webm" controls
+    autoplay loop>
+        <p>The video failed to load. Please download <a href="./videofile.webm">here</a>.</p>
+    </video>
+
+    
+    <video src="./videofile.webm" controls
+    height="100px" width="200px"
+    poster="thumbnail.png" >
+        <p>The video failed to load. Please download <a href="./videofile.webm">here</a>.</p>
+    </video>
+
+    
+    <video src="./videofile.webm" controls
+    poster="thumbnail.png">
         <p>The video failed to load. Please download <a href="./videofile.webm">here</a>.</p>
     </video>
     
