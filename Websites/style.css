@@ -1,0 +1,51 @@
+html
+{
+    background-color: lightgray;
+}
+
+h1, h2, h3 
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    color: black;
+    font-style: italic;
+}
+
+header, footer
+{
+    text-align: center;
+}
+
+
+nav ul
+{
+    display: block;
+    padding: 1em;
+    padding-bottom: 2em;
+    background-color: pink;
+
+}
+nav ul li 
+{
+    float: left;
+    margin-right: 2em;
+    margin-left: 1em;
+}
+
+main
+{
+    background-color: white;
+    padding-left: 1em;
+}
+main article h2
+{
+    clear: both;
+    padding-top: 1em;
+    text-align: center;
+}
+
+footer
+{
+    background-color: white;
+    padding: 1em;
+}
