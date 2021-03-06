@@ -1,0 +1,41 @@
+h1  {
+    color:orange;
+    font-size: 45px;
+}
+
+input {
+    width: 80px;
+    height: 52px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin:auto;
+    font-size: 30px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+button {
+    box-sizing: border-box;
+
+    width: 95px;
+    height: 35px;
+    border: 2px solid navy;
+    border-radius: 4px;
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+
+    margin: auto;
+    cursor: pointer;
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    size: 20px;
+}
