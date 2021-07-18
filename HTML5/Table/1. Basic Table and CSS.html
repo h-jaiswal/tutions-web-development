@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+
+        /* Internal CSS - CSS present inside style element inside of head element */
+
+        table, td, th
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        table
+        {
+            width: 100%;
+            background-color: greenyellow;
+        }
+
+        td, th 
+        {
+            padding: 1em;
+            color: white;
+        }
+
+        td 
+        {
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+
+        <!-- Table caption - it indicates purpose of the table -->
+        <caption> Students Result </caption>
+
+        <!-- ROW WITH COLOMN HEADERS  -->
+        <tr>
+            <th>Person Name</th>
+            <th>Age</th>
+            <th>Marks</th>
+        </tr>
+
+        <!-- ROW 1 -->
+        <tr>
+            <!-- Col 1 -->
+            <td>Rishav</td>
+
+            <!-- COl 2 -->
+            <td>14</td>
+
+            <!-- Col 3 -->
+            <td>92</td>
+
+        </tr>
+
+        <!-- ROW 2 -->
+        <tr>
+            <td>Harsh</td>
+            <td>21</td>
+            <td>87</td>
+        </tr>
+
+        <!-- ROW 3 -->
+        <tr>
+            <td>Shivam</td>
+            <td>12</td>
+            <td>78</td>
+        </tr>
+
+        <!-- Row 4 -->
+        <tr>
+            <!-- Col 1 -->
+            <td>Manish</td>
+
+            <!-- Col 2 -->
+            <td>18</td>
+
+            <!-- Col 3 -->
+            <td>&nbsp;</td>  
+            
+            <!-- &nbsp; in HTML means a single"space" -->
+        </tr>
+
+        <tr>
+            <td>Jai</td>
+            <td>7</td>
+            <td>98</td>
+        </tr>
+    </table>
+
+    <br> <br>
+
+    <table>
+
+    </table>
+</body>
+</html>
